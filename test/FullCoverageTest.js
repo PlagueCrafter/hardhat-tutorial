@@ -6,6 +6,8 @@
 // We import Chai to use its asserting functions here.
 const { expect } = require("chai");
 
+import "hardhat/console.sol";
+
 // We use `loadFixture` to share common setups (or fixtures) between tests.
 // Using this simplifies your tests and makes them run faster, by taking
 // advantage of Hardhat Network's snapshot functionality.
